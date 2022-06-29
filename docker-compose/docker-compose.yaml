@@ -1,0 +1,27 @@
+version: '3.1'
+services:
+  api_estagiarios:
+    build: ../API-Estagiarios
+    image: api_estagiarios/v1
+    ports:
+      - '8081:8081'
+    links:
+      - db
+      - eureka
+    depends_on:
+      - db
+      - eureka
+  db:
+    image: mysql
+    ports:
+      - '3307:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./docker/volume_mysql:/var/lib/mysql
+  eureka:
+    build: ../DiscoveryServer
+    image: eureka/v1
+    ports:
+    - '8761:8761'
+
