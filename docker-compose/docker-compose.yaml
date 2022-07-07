@@ -5,9 +5,6 @@ services:
     image: api_estagiarios/v1
     ports:
       - '8081:8081'
-    links:
-      - db
-      - eureka
     depends_on:
       - db
       - eureka
@@ -18,10 +15,24 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - ./docker/volume_mysql:/var/lib/mysql
+      - ../../mysqlVolume:/var/lib/mysql
   eureka:
     build: ../DiscoveryServer
     image: eureka/v1
     ports:
     - '8761:8761'
-
+  auth:
+    build: ../auth
+    image: auth/v1
+    ports:
+      - '8085:8085'
+    depends_on:
+      - db
+      - eureka
+  gateway:
+    build: ../gateway
+    image: gateway/v1
+    ports:
+      - '8080:8080'
+    depends_on:
+      - api_estagiarios

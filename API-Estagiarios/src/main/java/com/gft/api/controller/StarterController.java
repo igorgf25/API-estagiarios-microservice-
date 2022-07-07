@@ -18,6 +18,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("v1/starter")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class StarterController {
 
     @Autowired

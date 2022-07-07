@@ -3,12 +3,14 @@ package com.gft.api.controller;
 import com.gft.api.model.dto.usuario.Login;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Api(value = "Login")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class LoginController {
 
     //Controller criado para que seja gerado no swagger o caminho de login
