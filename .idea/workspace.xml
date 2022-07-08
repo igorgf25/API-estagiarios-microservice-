@@ -5,204 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3efcc121-e81e-4c7e-8d26-e8ad05498184" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_http_1_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_3_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/exception/CustomRestExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/exception/InvalidDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/mapper/UsuarioMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/model/dto/error/ApiErrorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/model/dto/oauth/AutenticacaoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/model/dto/oauth/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/model/dto/oauth/UsuarioRS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/security/SpringBootSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/igor/auth/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/UserDto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/security/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/UserDto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/exception/MyErrorWebExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/exception/MyErrorWebFluxAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/exception/ResouceWebPropertiesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/exception/ServiceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/#ib_16384_0.dblwr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/#ib_16384_1.dblwr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/auto.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.000003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.000004" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.000005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.000006" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/binlog.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/ca-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/ca.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/client-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/client-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/desafio@002dAPI@002diefn/flyway_schema_history.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/desafio@002dAPI@002diefn/tb_categoria.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/desafio@002dAPI@002diefn/tb_role.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/desafio@002dAPI@002diefn/tb_starter.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/desafio@002dAPI@002diefn/tb_user_role.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/desafio@002dAPI@002diefn/tb_usuario.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/ib_buffer_pool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/ib_logfile0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/ib_logfile1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/ibdata1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql/general_log.CSM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql/general_log.CSV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql/general_log_380.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql/slow_log.CSM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql/slow_log.CSV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql/slow_log_382.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/mysql_upgrade_info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/accounts_303.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/binary_log_trans_347.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/cond_instances_240.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/data_lock_waits_319.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/data_locks_318.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/error_log_241.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_errors_su_297.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_errors_su_298.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_errors_su_299.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_errors_su_300.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_errors_su_301.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_cu_269.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_hi_270.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_hi_271.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_su_272.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_su_273.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_su_274.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_su_275.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_stages_su_276.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_277.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_278.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_279.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_280.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_281.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_282.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_283.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_284.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_285.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_286.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_287.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_statement_288.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_289.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_290.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_291.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_292.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_293.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_294.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_295.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_transacti_296.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_cur_242.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_his_243.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_his_244.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_sum_245.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_sum_246.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_sum_247.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_sum_248.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_sum_249.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/events_waits_sum_250.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/file_instances_251.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/file_summary_by__252.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/file_summary_by__253.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/global_status_339.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/global_variables_342.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/host_cache_254.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/hosts_304.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/keyring_componen_349.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/keyring_keys_310.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/log_status_332.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/memory_summary_b_312.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/memory_summary_b_313.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/memory_summary_b_314.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/memory_summary_b_315.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/memory_summary_g_311.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/metadata_locks_317.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/mutex_instances_255.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/objects_summary__256.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/performance_time_257.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/persisted_variab_345.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/prepared_stateme_333.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/processlist_258.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_appl_323.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_appl_324.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_appl_325.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_appl_326.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_appl_328.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_appl_329.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_asyn_330.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_asyn_331.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_conn_320.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_conn_322.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_grou_321.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/replication_grou_327.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/rwlock_instances_259.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/session_account__309.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/session_connect__308.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/session_status_340.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/session_variable_343.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/setup_actors_260.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/setup_consumers_261.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/setup_instrument_262.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/setup_objects_263.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/setup_threads_264.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/socket_instances_305.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/socket_summary_b_306.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/socket_summary_b_307.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/status_by_accoun_335.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/status_by_host_336.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/status_by_thread_337.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/status_by_user_338.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/table_handles_316.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/table_io_waits_s_265.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/table_io_waits_s_266.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/table_lock_waits_267.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/threads_268.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/tls_channel_stat_348.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/user_defined_fun_346.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/user_variables_b_334.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/users_302.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/variables_by_thr_341.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/performance_schema/variables_info_344.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/private_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/public_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/server-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/server-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/sys/sys_config.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/undo_001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker/volume_mysql/undo_002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/security/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/igor/gateway/security/AuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,6 +75,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.igor.gateway.exception" />
+      <recent name="com.igor.gateway.UserDto" />
       <recent name="com.igor.auth.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -398,6 +209,8 @@
       <workItem from="1656943223864" duration="9731000" />
       <workItem from="1657024656886" duration="15518000" />
       <workItem from="1657118775355" duration="6307000" />
+      <workItem from="1657201114999" duration="8042000" />
+      <workItem from="1657291401552" duration="3747000" />
     </task>
     <servers />
   </component>
